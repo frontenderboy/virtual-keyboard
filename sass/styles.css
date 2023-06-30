@@ -195,6 +195,10 @@ body {
   justify-content: space-evenly;
 }
 
+.off-btn {
+  background: #dddddd;
+}
+
 .tilda-btn,
 .number-1-btn,
 .number-2-btn,

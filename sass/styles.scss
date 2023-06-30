@@ -1,6 +1,7 @@
 $color-background: #55c5ff;
 $color-white: #ffffff;
 $color-black: #000000;
+$color-inactive: #dddddd;
 $color-active: #23d312;
 
 @import "keyboard-main";
@@ -45,6 +46,10 @@ body {
 
 .backspace-btn {
     justify-content: space-evenly;
+}
+
+.off-btn {
+    background: $color-inactive;
 }
 
 .tilda-btn,

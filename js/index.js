@@ -4,6 +4,4 @@ window.addEventListener('keydown', (event) => {
     
     keyboardBtn.classList.add('active-btn');
     event.preventDefault();
-
-    console.log(event.code)
 })
