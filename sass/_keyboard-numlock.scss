@@ -3,6 +3,9 @@
     grid-template-columns: repeat(4, 65px);
     grid-template-rows: repeat(6, 65px);
     gap: 7px;
+    @media(max-width: 1520px) {
+        display: none;
+    }
 }
 
 .numlock-btn {
