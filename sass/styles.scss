@@ -1,6 +1,7 @@
 $color-background: #55c5ff;
 $color-white: #ffffff;
 $color-black: #000000;
+$color-active: #23d312;
 
 @import "keyboard-main";
 @import "keyboard-numlock";
@@ -101,4 +102,9 @@ body {
 .numlock-0-btn,
 .numlock-comma-btn {
     font-size: 23px;
+}
+
+.active-btn {
+    background: $color-active;
+    color: $color-white;
 }
