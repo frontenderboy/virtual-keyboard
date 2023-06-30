@@ -35,6 +35,14 @@ body {
     padding: 5px;
 }
 
+.active-btn {
+    background: $color-active;
+    color: $color-white;
+    & svg {
+        fill: #ffffff;
+    }
+}
+
 .backspace-btn {
     justify-content: space-evenly;
 }
@@ -102,9 +110,4 @@ body {
 .numlock-0-btn,
 .numlock-comma-btn {
     font-size: 23px;
-}
-
-.active-btn {
-    background: $color-active;
-    color: $color-white;
 }

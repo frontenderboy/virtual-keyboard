@@ -183,6 +183,14 @@ body {
   padding: 5px;
 }
 
+.active-btn {
+  background: #23d312;
+  color: #ffffff;
+}
+.active-btn svg {
+  fill: #ffffff;
+}
+
 .backspace-btn {
   justify-content: space-evenly;
 }
