@@ -1,0 +1,104 @@
+$color-background: #55c5ff;
+$color-white: #ffffff;
+$color-black: #000000;
+
+@import "keyboard-main";
+@import "keyboard-numlock";
+
+html,
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-background;
+    font-family: Sen, sans-serif;
+}
+
+.keyboard {
+    display: flex;
+    column-gap: 25px;
+    width: auto;
+    border-radius: 18px;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 15px 20px;
+}
+
+.keyboard-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-white;
+    border-radius: 15px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.backspace-btn {
+    justify-content: space-evenly;
+}
+
+.tilda-btn,
+.number-1-btn,
+.number-2-btn,
+.number-3-btn,
+.number-4-btn,
+.number-5-btn,
+.number-6-btn,
+.number-7-btn,
+.number-8-btn,
+.number-9-btn,
+.number-0-btn,
+.dash-btn,
+.equal-plus-btn,
+.letter-Q,
+.letter-W,
+.letter-E,
+.letter-R,
+.letter-T,
+.letter-Y,
+.letter-U,
+.letter-I,
+.letter-O,
+.letter-P,
+.letter-A,
+.letter-S,
+.letter-D,
+.letter-F,
+.letter-G,
+.letter-H,
+.letter-J,
+.letter-K,
+.letter-L,
+.colon-btn,
+.double-quote-btn,
+.letter-Z,
+.letter-X,
+.letter-C,
+.letter-V,
+.letter-B,
+.letter-N,
+.letter-M,
+.comma-btn,
+.dot-btn,
+.question-mark-btn {
+    font-size: 23px;
+}
+
+.numlock-slash-btn,
+.numlock-star-btn,
+.numlock-minus-btn,
+.numlock-7-btn,
+.numlock-8-btn,
+.numlock-9-btn,
+.numlock-plus-btn,
+.numlock-4-btn,
+.numlock-5-btn,
+.numlock-6-btn,
+.numlock-1-btn,
+.numlock-2-btn,
+.numlock-3-btn,
+.numlock-0-btn,
+.numlock-comma-btn {
+    font-size: 23px;
+}
