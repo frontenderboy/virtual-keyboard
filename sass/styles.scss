@@ -42,6 +42,16 @@ body {
     letter-spacing: 2px;
 
     display: none;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 200px;
+        height: 200px;
+        background-image: url('../sad-emoji.png');
+        background-size: cover;
+        margin: 0 auto 30px;
+    }
 }
 
 .none {
